@@ -1,5 +1,6 @@
-desafios.zip
-├── patron1.rb
-├── patron2.rb
-├── patron3.rb
-└── patron4.rb
+number = ARGV [0].to_i
+
+for i in (1..number)
+    1.odd? ? print('*') : print('.')
+    
+end
